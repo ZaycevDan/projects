@@ -13,19 +13,11 @@ body {
 
 a {
   color: #fafaf5;
-  
-}
-
-.title-1 {
-  color: var(--accent);
-  font-family: var(--font-accent);
-  font-weight: 700;
-  font-size: 96px;
 }
 
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1200pxpx;
+  max-width: 1200px;
   width: 100%;
 }
