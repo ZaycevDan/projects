@@ -10,14 +10,17 @@
     <header class="header">
       <div class="container">
         <a href="index.html" class="logo">
-          <img src="./img/logo.svg" alt="Логотип" />
-          Logo here
+          <img src="img/logo.svg" alt="Лого" />
+          Logo Here
         </a>
         <nav class="header__nav">
-          <a href="" class="header__link">Home</a>
-          <a href="" class="header__link">Work</a>
-          <a href="" class="header__link">Contact</a>
+          <a href="#!" class="header__link">Home</a>
+          <a href="#works" class="header__link">Work</a>
+          <a href="#contact" class="header__link">Contact</a>
         </nav>
+        <button class="burger-menu" type="button">
+          <img class="burger-menu__icon" src="img/burger-menu.svg" alt="" />
+        </button>
       </div>
     </header>
     <main class="main">
@@ -38,13 +41,12 @@
           <img src="./img/Nikita.png" alt="Avatar" class="welcome__img" />
         </div>
       </section>
-      <section class="works">
+      <section class="works" id="works">
         <div class="container">
           <button class="works__btn" type="button">
             <img class="works__icon" src="img/arrow.svg" alt="" />
             Featured Work
           </button>
-
           <div class="works__wrapper">
             <a href="#!" class="work">
               <img class="work__img" src="img/work1.jpg" alt="" />
@@ -65,6 +67,70 @@
           </div>
         </div>
       </section>
+      <section class="projects">
+        <div class="container">
+          <h2 class="title projects__title">Visual Explorations</h2>
+          <div class="projects__wrapper">
+            <img src="./img/visual1.jpg" alt="" class="projects__img" />
+            <img src="./img/visual2.jpg" alt="" class="projects__img" />
+            <img src="./img/visual3.jpg" alt="" class="projects__img" />
+            <img src="./img/visual4.jpg" alt="" class="projects__img" />
+            <img src="./img/visual5.jpg" alt="" class="projects__img" />
+            <img src="./img/visual6.jpg" alt="" class="projects__img" />
+          </div>
+        </div>
+      </section>
+      <section class="projects projects--vertical">
+        <div class="container">
+          <h2 class="title projects__title">Personal Projects</h2>
+          <div class="projects__wrapper">
+            <img class="projects__img" src="img/project1.jpg" alt="" />
+            <img class="projects__img" src="img/project2.jpg" alt="" />
+            <img class="projects__img" src="img/project3.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="title contact__title">Contact Me</h2>
+          <p class="contact__text">
+            If you are looking to hire a product designer, I’m currently
+            available for freelance work
+          </p>
+          <a class="btn contact__btn" href="mailto:hi@yourname.com"
+            >hi@yourname.com</a
+          >
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__copy">
+          Made by <span>Daniil Zaycev</span> — Copyright 2025
+        </p>
+        <div class="socials">
+          <a
+            href="https://t.me/zaycev_dan"
+            target="_blank"
+            class="socials__link"
+          >
+            <img class="socials__img" src="img/social1.svg" alt="" />
+          </a>
+          <a href="#!" class="socials__link">
+            <img class="socials__img" src="img/social2.svg" alt="" />
+          </a>
+          <a href="#!" class="socials__link">
+            <img class="socials__img" src="img/social3.svg" alt="" />
+          </a>
+          <a href="#!" class="socials__link">
+            <img class="socials__img" src="img/social4.svg" alt="" />
+          </a>
+          <a href="#!" class="socials__link">
+            <img class="socials__img" src="img/social5.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
