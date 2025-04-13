@@ -260,57 +260,32 @@ a:hover {
   filter: blur(90px);
 }
 
-/* .benefits__container::after {
+.benefits__container::after {
   content: "we\Ahave";
   white-space: pre-wrap;
 
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 15px;
+  left: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
-  width: 175px;
-  height: 175px;
-  background-image: url("./img/icons/star.svg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
 
   font-weight: 500;
   font-size: 32px;
   text-transform: uppercase;
   text-align: center;
   color: #fff;
-} */
 
-.benefits__page {
-  white-space: pre-wrap;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  z-index: 10;
-
-  width: 175px;
-  height: 175px;
+  transform: translate(-50%, -50%);
 
   background-image: url("./img/icons/star.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-
-  font-weight: 500;
-  font-size: 32px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
 }
 
 .benefits__item {
