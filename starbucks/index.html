@@ -6,14 +6,14 @@
     <title>Starbucks</title>
     <link rel="stylesheet" href="./main.css" />
   </head>
-  <body>
+  <body id="top">
     <header class="header">
       <div class="container">
         <a href="#!" class="logo text-gradient header__logo">StarBucks</a>
         <nav class="header__nav">
           <a href="#!" class="header__link">Home</a>
-          <a href="#!" class="header__link">Select</a>
-          <a href="#!" class="header__link">Shop</a>
+          <a href="" class="header__link">Select</a>
+          <a href="#products" class="header__link">Shop</a>
         </nav>
       </div>
     </header>
@@ -109,7 +109,7 @@
           </div>
         </div>
       </section>
-      <section class="products">
+      <section id="products" class="products">
         <div class="container">
           <div class="text-row">
             <h2 class="title text-row__title">
@@ -231,5 +231,40 @@
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <a href="#!" class="logo text-gradient footer__logo">StarBucks</a>
+          <nav class="footer__nav">
+            <div class="footer__nav-col">
+              <a href="#!" class="footer__nav-link">Main</a>
+              <a href="#!" class="footer__nav-link">Buy</a>
+              <a href="#!" class="footer__nav-link">More</a>
+            </div>
+            <div class="footer__nav-col">
+              <a href="#!" class="footer__nav-link">We make</a>
+              <a href="#!" class="footer__nav-link">Process</a>
+            </div>
+            <div class="footer__nav-col">
+              <a href="#!" class="footer__nav-link">Products</a>
+              <a href="#!" class="footer__nav-link">Cappucino</a>
+              <a href="#!" class="footer__nav-link">Fast</a>
+              <a href="#!" class="footer__nav-link">Latte</a>
+            </div>
+            <div class="footer__nav-col">
+              <a href="#!" class="footer__nav-link">Events</a>
+              <a href="#!" class="footer__nav-link">Drinks</a>
+              <a href="#!" class="footer__nav-link">Eat</a>
+            </div>
+          </nav>
+          <a href="#top" class="footer__up-link">
+            <img src="./img/icons/arrow.svg" alt="" class="footer__arrow" />
+          </a>
+        </div>
+        <a href="tel:+79999999999" class="footer__phone text-gradient"
+          >+7-999-999-99-99</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
