@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
   font-family: "Heebo";
   src: url("./fonts/Heebo-Light.woff2") format("woff2");
@@ -21,6 +23,8 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* reset */
 
 /**
   Нормализация блочной модели
@@ -123,6 +127,8 @@ body {
   }
 }
 
+/* Var */
+
 :root {
   --color-dark: #000000;
   --color-dark-alternate: #131619;
@@ -145,6 +151,8 @@ body {
 
   --header-height: 90px;
 }
+
+/* Base */
 
 body {
   font-family: var(--font-family-base);
@@ -356,6 +364,8 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+/* Header */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -404,6 +414,7 @@ input[type="number"] {
 .header-burger-button {
   display: inline-flex;
   flex-direction: column;
+  
   justify-content: center;
   row-gap: 4px;
   width: 40px;
@@ -426,6 +437,8 @@ input[type="number"] {
   background-color: currentColor;
   box-shadow: 16px 0 0 currentColor;
 }
+
+/* Banner */
 
 .banner {
   display: flex;
@@ -497,6 +510,8 @@ input[type="number"] {
   border-color: var(--color-light-gray);
 }
 
+/* Motivation */
+
 .motivation-item:nth-child(even) {
   background-color: var(--color-dark-alternate);
 }
@@ -532,6 +547,8 @@ input[type="number"] {
   margin-bottom: 37px;
 }
 
+/* Training */
+
 .training-types {
   position: relative;
   padding-top: 70px;
@@ -559,6 +576,8 @@ input[type="number"] {
 .training-types-item-title {
   font-size: 16px;
 }
+
+/* Join Us */
 
 .join-us {
   background-color: var(--color-dark-alternate);
@@ -664,6 +683,8 @@ input[type="number"] {
   max-width: 400px;
 }
 
+/* Location */
+
 .location {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -694,6 +715,8 @@ input[type="number"] {
   margin-bottom: 37px;
 }
 
+/* Family */
+
 .family {
   background-color: var(--color-dark-alternate);
 }
@@ -719,6 +742,8 @@ input[type="number"] {
 .family-image {
   scroll-snap-align: start;
 }
+
+/* Media */
 
 @media (max-width: 1919px) {
   .motivation-card-image {
