@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Avenir";
+  src: url("fonts/Avenir-Heavy.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Base */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:active {
+  opacity: 1;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+
+.header {
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: underline;
+}
