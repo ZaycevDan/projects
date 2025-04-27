@@ -186,3 +186,41 @@ a:active {
   display: flex;
   gap: 30px;
 }
+
+/* Mission */
+
+.mission {
+  padding: 150px 85px;
+  position: relative;
+}
+
+.mission__img {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  z-index: -1;
+  transform: rotate(90deg) translate(-43%);
+}
+
+.mission__desc {
+  width: 320px;
+  margin-left: auto;
+}
+
+.mission__title {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.mission__title::after {
+  content: "";
+  position: absolute;
+  right: 55px;
+  top: 7px;
+  z-index: -1;
+  width: 85px;
+  height: 85px;
+  background: #f101bf;
+  opacity: 0.7;
+  filter: blur(50px);
+}
