@@ -271,3 +271,297 @@ a:active {
   background-size: cover;
   background-position: center;
 }
+
+/* Footer */
+
+.footer {
+  padding: 100px 0 50px;
+  overflow: hidden;
+}
+
+.footer__container {
+  position: relative;
+}
+
+.footer__container::before {
+  content: '';
+  position: absolute;
+  left: -170px;
+  bottom: -200px;
+  z-index: -1;
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(12deg, #F101BF 3%, #0066FF 97%);
+  opacity: 0.3;
+  filter: blur(125px);
+  transform: rotate(6deg);
+}
+
+.footer__cta {
+  margin-bottom: 125px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer__cta .cta__text {
+  font-size: 24px;
+}
+
+.footer__cta .cta__img {
+  height: 80px;
+}
+
+.footer__cta .cta__links {
+  gap: 60px;
+}
+
+.footer__row {
+  font-family: "Avenir", sans-serif; 
+  font-weight: 900;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo-link {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.footer__contact {
+  margin-bottom: 15px;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Media */
+
+@media (max-width: 940px) {
+  .welcome__cta {
+    padding-right: 0;
+  }
+
+  .welcome__img {
+    right: -190px;
+  }
+
+  .cta__text {
+    font-size: 24px;
+  }
+
+  .mission__img {
+    right: 60%;
+  }
+
+  .mission {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .common__col, .mission__desc {
+    max-width: 370px;
+  }
+
+  .mission__desc {
+    width: unset;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .logo {
+    gap: 3px;
+  }
+  .logo__img {
+    width: 70px;
+  }
+
+  .logo__text {
+    width: 70px;
+  }
+
+  .header {
+    padding: 20px 0;
+  }
+
+  .header__container {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .header__login img {
+    display: none;
+  }
+
+
+  .welcome__row {
+    min-height: 420px;
+    margin-bottom: 40px;
+  }
+
+  .welcome__container::after {
+    width: 700px;
+    height: 826px;
+
+    right: -140px;
+    top: -190px;
+
+    background-image: url("./img/bg-welcome-mobile.svg");
+    transform: rotate(-90deg);
+  }
+
+  .welcome__img {
+    width: 350px;
+    right: -60px;
+    top: -60px;
+  }
+
+  .welcome__title {
+    margin-bottom: 25px;
+    font-size: 35px;
+  }
+
+  .welcome__text {
+    padding-left: 0;
+    font-size: 16px;
+    width: 60%;
+  }
+
+  .welcome__text::before, .welcome__text::after {
+    display: none;
+  }
+
+  .cta__img, .footer__cta .cta__img {
+    height: 60px;
+  }
+
+  .cta__links, .footer__cta .cta__links {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .cta {
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .mission {
+    padding: 50px 0 0;
+  }
+
+  .mission__img {
+    margin-top: -20px;
+    width: 320px;
+    position: static;
+    transform: none;
+    align-self: center;
+  }
+
+  .mission__title::after {
+    right: auto;
+    left: -24px;
+    top: -28px;
+}
+
+  .mission__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .mission__desc {
+    margin-left: unset;
+  }
+
+  .mission__title {
+    margin-bottom: 25px;
+  }
+
+  .common__col, .mission__desc {
+    max-width: unset;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+
+  .common {
+    margin-top: 70px;
+    padding: 0;
+    background: none;
+  }
+
+  .common__container, .common:nth-child(even) .container {
+    flex-direction: column-reverse;
+    gap: 70px;
+  }
+
+  .common__img {
+    align-self: center;
+    width: 280px;
+  }
+
+  .scanner {
+    margin-top: 0;
+  }
+
+  .scanner::before {
+    background: linear-gradient(179.83deg, #000000 -1.85%, rgba(0, 0, 0, 0.67) 11.21%, rgba(0, 0, 0, 0) 54.71%, #000000 83.92%), url("./img/bg-scanner.jpg");
+  }
+
+  .code::before {
+    background: linear-gradient(179.83deg, #000000 -1.85%, rgba(0, 0, 0, 0.67) 11.21%, rgba(0, 0, 0, 0) 54.71%, #000000 83.92%), url("./img/bg-code.jpg");
+  }
+
+  .common::before {
+    content: "";
+    display: block;
+    height: 300px;
+    margin-bottom: -100px;
+
+    background-position: center;
+    background-size: cover;
+  }
+
+  .footer {
+    padding: 70px 0 30px;
+  }
+
+  .footer__cta {
+    margin-bottom: 70px;
+  }
+
+  .footer__row {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 60px;
+  }
+
+  .footer__contact {
+    margin-bottom: 10px;
+  }
+
+}
+
+
+@media (max-width: 520px) {
+  .welcome__img {
+    right: -170px;
+  }
+
+  .logo__img, .logo__text {
+    width: 50px;
+  }
+
+  .header__login {
+    font-size: 14px;
+  }
+}
