@@ -19,6 +19,10 @@ p {
   line-height: 1.8;
 }
 
+.hide {
+  display: none !important;
+}
+
 .title-wrapper {
   margin-bottom: 60px;
 }
@@ -206,4 +210,86 @@ p {
   letter-spacing: 7px;
   text-transform: uppercase;
   color: #676770;
+}
+
+/* Services */
+
+.services .cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services .card {
+  width: 45%;
+}
+
+.services .card img {
+  margin-bottom: 20px;
+}
+
+.services .card h4 {
+  margin-bottom: 20px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+.services .link {
+  margin-top: 15px;
+}
+
+/* Tabs */
+
+.tabs__nav {
+  margin-bottom: 50px;
+}
+
+.tabs__nav button {
+  padding: 0 30px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #92a0ad;
+  border-radius: 4px;
+}
+
+.tabs__nav button.active {
+  background-color: #2e80b6;
+}
+
+.tabs__nav button + button {
+  margin-left: 15px;
+}
+
+.tabs__item {
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tabs__item img {
+  margin-bottom: 15px;
+}
+
+.tabs__item h4 {
+  margin-bottom: 15px;
+
+  font-size: 31px;
+  line-height: 1;
+  color: #676770;
+}
+
+.tabs__desc {
+  max-width: 720px;
+  margin: 0 auto;
 }
