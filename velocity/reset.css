@@ -1,4 +1,5 @@
-/* Reset and base styles */
+/* Base styles*/
+
 *,
 *::before,
 *::after {
@@ -51,6 +52,7 @@ video {
 }
 
 /* Form */
+
 input,
 textarea,
 button,
