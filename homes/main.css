@@ -381,3 +381,78 @@ hr {
   font-weight: 300;
   color: #999;
 }
+
+/* Statistics */
+.statistics {
+  background-color: #95e1d3;
+}
+
+.stat {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stat__item {
+  flex: 1 1 0;
+  padding: 70px 25px;
+
+  border-left: 1px solid #b5eae0;
+
+  text-align: center;
+  color: #fff;
+}
+
+.stat__item:last-child {
+  border-right: 1px solid #b5eae0;
+}
+
+.stat__count {
+  margin-bottom: 10px;
+
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stat__text {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* Services */
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services__item {
+  width: 33.33333%;
+  padding: 0 35px 40px 85px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.services__item--border {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.services__icon {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  z-index: 1;
+}
+
+.services__title {
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.services__text {
+  font-size: 15px;
+  color: #999;
+}
